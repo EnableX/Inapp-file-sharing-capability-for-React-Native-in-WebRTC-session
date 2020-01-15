@@ -1,0 +1,49 @@
+{
+  "name": "EnxRtcSample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "flow": "flow",
+    "flow:check": "flow check",
+    "lint": "eslint src example",
+    "jest": "jest src example",
+    "start": "nodemon --exec \"react-native start\"",
+    "test": "npm run flow && npm run lint && npm run jesp9t",
+    "format": "eslint --fix src"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-preset-react-native": "^5.0.2",
+    "enx-rtc-react-native": "^1.5.3",
+    "expo": "^35.0.0",
+    "nodemon": "^1.18.10",
+    "npm-install-peers": "^1.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.9.0",
+    "react-devtools": "^3.6.1",
+    "react-native": "^0.61.5",
+    "react-native-axios": "^0.17.1",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-elements": "^1.2.7",
+    "react-native-enhanced-popup-menu": "^0.6.1",
+    "react-native-gifted-chat": "^0.13.0",
+    "react-native-modal": "^11.5.3",
+    "react-native-navigation": "^3.3.0",
+    "react-native-vector-icons": "^6.6.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.3",
+    "react-test-renderer": "^16.9.0",
+    "jetifier": "^1.6.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
