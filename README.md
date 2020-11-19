@@ -1,6 +1,6 @@
 # 1-to-1 RTC: A Sample React Native App for Uploading and Downloading Files with EnableX React Native Toolkit
 
-This is a Sample React Native App demonstrates the use of EnableX (https://www.enablex.io) platform Server APIs and React Native Toolkit to build 1-to-1 RTC (Real Time Communication) Application.  It allows developers to ramp up on app development by hosting on their own devices. 
+This is a Sample React Native App demonstrates the use of EnableX (https://www.enablex.io/cpaas) platform Server APIs and React Native Toolkit to build 1-to-1 RTC (Real Time Communication) Application.  It allows developers to ramp up on app development by hosting on their own devices. 
 
 This App creates a virtual Room on the fly  hosted on the Enablex platform using REST calls and uses the Room credentials (i.e. Room Id) to connect to the virtual Room as a mobile client.  The same Room credentials can be shared with others to join the same virtual Room to carry out a RTC session. 
 
@@ -13,7 +13,7 @@ This App creates a virtual Room on the fly  hosted on the Enablex platform using
 
 #### 1.1.1 App Id and App Key 
 
-* Register with EnableX [https://www.enablex.io] 
+* Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/] 
 * Create your Application
 * Get your App ID and App Key delivered to your Email
 
@@ -214,8 +214,8 @@ availableFiles:event=>{
 ``` 
 
 
-## 5 Demo
+## 5 Trial
 
-Visit Demo Zone (https://portal.enablex.io/demo-zone/) to request a Guided Demo or Demo Access to different type of application available there.
+Try a quick Video Call: https://try.enablex.io/ 
+Sign up for a free trial https://portal.enablex.io/cpaas/trial-sign-up/
 
-You may also try our Video Meeting and Webinar solutions here: https://web.enablex.io/ucaas/covid-19/
