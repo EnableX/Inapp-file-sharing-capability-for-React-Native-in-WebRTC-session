@@ -1,34 +1,34 @@
 # 1-to-1 RTC: A Sample React Native App for Uploading and Downloading Files with EnableX React Native Toolkit
 
-This is a Sample React Native App demonstrates the use of EnableX (https://www.enablex.io/cpaas) platform Server APIs and React Native Toolkit to build 1-to-1 RTC (Real Time Communication) Application.  It allows developers to ramp up on app development by hosting on their own devices. 
+This is a Sample React Native App demonstrates the use of [EnableX platform Server APIs](https://www.enablex.io/developer/video-api/server-api) and [React Native Toolkit](https://www.enablex.io/developer/video-api/client-api/react-native-toolkit/) to build 1-to-1 RTC (Real-Time Communication) Application.  It allows developers to ramp up on app development by hosting on their own devices. 
 
-This App creates a virtual Room on the fly  hosted on the Enablex platform using REST calls and uses the Room credentials (i.e. Room Id) to connect to the virtual Room as a mobile client.  The same Room credentials can be shared with others to join the same virtual Room to carry out a RTC session. 
+This App creates a virtual Room on the fly  hosted on the Enablex platform using REST calls and uses the Room credentials (i.e. Room Id) to connect to the virtual Room as a mobile client.  The same Room credentials can be shared with others to join the same virtual Room to carry out an RTC session. 
 
 > EnableX Developer Center: https://developer.enablex.io/
 
 
 ## 1. How to get started
 
-### 1.1 Pre-Requisites
+### 1.1 Prerequisites
 
 #### 1.1.1 App Id and App Key 
 
 * Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/] 
 * Create your Application
-* Get your App ID and App Key delivered to your Email
+* Get your App ID and App Key delivered to your email
 
 
 #### 1.1.2 Sample React Native Client 
 
-* Clone or download this Repository [https://github.com/EnableX/One-to-One-Video-Calling-Open-Source-React-Native-Application.git] 
+* Clone or download this Repository [https://github.com/EnableX/Inapp-file-sharing-capability-for-React-Native-in-WebRTC-session.git] 
 
 
 #### 1.1.3 Sample App Server 
 
 * Clone or download this Repository [https://github.com/EnableX/One-to-One-Video-Chat-Sample-Web-Application] & follow the steps further 
 * You need to use App ID and App Key to run this Service. 
-* Your React-Native Client End Point needs to connect to this Service to create Virtual Room.
-* Follow README file of this Repository to setup the Service.
+* Your React-Native Client EndPoint needs to connect to this Service to create Virtual Room.
+* Follow README file of this Repository to set up the Service.
 
 
 #### 1.1.4 Configure React Native Client 
@@ -50,7 +50,7 @@ Change as below
 
 * Open the App in your Device. You get a form to enter Credentials i.e. Name & Room Id.
 * You need to create a Room by clicking the "Create Room" button.
-* Once the Room Id is created, you can use it and share with others to connect to the Virtual Room to carry out a RTC Session.
+* Once the Room Id is created, you can use it and share with others to connect to the Virtual Room to carry out an RTC Session.
   
 ## 2 Server API
 
@@ -59,23 +59,23 @@ meeting rooms. API Access is given to each Application through the assigned App 
 are to be used as Username and Password respectively to pass as HTTP Basic Authentication header to access Server API.
  
 For this application, the following Server API calls are used: 
-* https://developer.enablex.io/latest/server-api/rooms-route/#get-rooms - To get list of Rooms
-* https://developer.enablex.io/latest/server-api/rooms-route/#get-room-info - To get information of the given Room
-* https://developer.enablex.io/latest/server-api/rooms-route/#create-token - To create Token for the given Room
+* https://www.enablex.io/developer/video-api/server-api/rooms-route/#get-rooms - To get list of Rooms
+* https://www.enablex.io/developer/video-api/server-api/rooms-route/#get-room-info - To get information of the given Room
+* https://www.enablex.io/developer/video-api/server-api/rooms-route/#create-token - To create Token for the given Room
 
 To know more about Server API, go to:
-https://developer.enablex.io/latest/server-api/
+https://www.enablex.io/developer/video-api/server-api
 
 
 ## 3 React Native Toolkit
 
 React Native App to use React Native Toolkit to communicate with EnableX Servers to initiate and manage Real Time Communications.  
 
-* Documentation: https://developer.enablex.io/latest/client-api/react-native-toolkit/
+* Documentation: https://www.enablex.io/developer/video-api/client-api/react-native-toolkit/
 
 ### 3.1 Platform oriented Dependency Installation
 
-#### 3.1.1 iOS dependency 
+#### 3.1.1 IOS dependency 
    * Step 1: In your terminal, change into the `ios` directory of your React Native project.
    * Step 2: Now run, `pod install`
    * Step 3: Change root directory of your Project 
@@ -88,13 +88,13 @@ React Native App to use React Native Toolkit to communicate with EnableX Servers
 We create a Token for a Room Id to get connected to EnableX Platform to connect to the Virtual Room to carry out a RTC Session.
 
 To create Token, we make use of Server API. Refer following documentation:
-https://developer.enablex.io/latest/server-api/rooms-route/#create-token
+https://www.enablex.io/developer/video-api/server-api/rooms-route/#create-token
 
 
 ### 4.2 Connect to a Room, Initiate & Publish Stream
 
 We use the Token to get connected to the Virtual Room. Once connected, we intiate local stream and publish into the room. Refer following documentation for this process:
-https://developer.enablex.io/latest/client-api/react-native-toolkit/enxroom/
+https://www.enablex.io/developer/video-api/client-api/react-native-toolkit/room-connection/
 
 
 ### 4.3 Handle Server Events
@@ -216,6 +216,6 @@ availableFiles:event=>{
 
 ## 5 Trial
 
-Try a quick Video Call: https://try.enablex.io/ 
+Try a quick Video Call: https://try.enablex.io/ <br/>
 Sign up for a free trial https://portal.enablex.io/cpaas/trial-sign-up/
 
