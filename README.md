@@ -20,12 +20,12 @@ This App creates a virtual Room on the fly  hosted on the Enablex platform using
 
 #### 1.1.2 Sample React Native Client 
 
-* Clone or download this Repository [https://github.com/EnableX/Inapp-file-sharing-capability-for-React-Native-in-WebRTC-session.git] 
+* [Clone or download this Repository](https://github.com/EnableX/Inapp-file-sharing-capability-for-React-Native-in-WebRTC-session.git)
 
 
 #### 1.1.3 Sample App Server 
 
-* Clone or download this Repository [https://github.com/EnableX/One-to-One-Video-Chat-Sample-Web-Application] & follow the steps further 
+* [Clone or download this Repository](https://github.com/EnableX/One-to-One-Video-Chat-Sample-Web-Application) & follow the steps further 
 * You need to use App ID and App Key to run this Service. 
 * Your React-Native Client EndPoint needs to connect to this Service to create Virtual Room.
 * Follow README file of this Repository to set up the Service.
