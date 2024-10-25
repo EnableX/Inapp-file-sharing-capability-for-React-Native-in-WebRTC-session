@@ -13,7 +13,7 @@ This App creates a virtual Room on the fly  hosted on the Enablex platform using
 
 #### 1.1.1 App Id and App Key 
 
-* Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/] 
+* Register with EnableX [https://www.enablex.io/free-trial/] 
 * Create your Application
 * Get your App ID and App Key delivered to your email
 
@@ -64,7 +64,7 @@ For this application, the following Server API calls are used:
 * https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-token - To create Token for the given Room
 
 To know more about Server API, go to:
-https://developer.enablex.io/docs/references/apis/video-api/index/
+https://developer.enablex.io/docs/guides/video-guide/sample-codes/video-calling-app/#demo-application-server
 
 
 ## 3 React Native Toolkit
@@ -217,5 +217,5 @@ availableFiles:event=>{
 ## 5 Trial
 
 Try a quick Video Call: https://try.enablex.io/ <br/>
-Sign up for a free trial https://portal.enablex.io/cpaas/trial-sign-up/
+Sign up for a free trial https://www.enablex.io/free-trial/
 
